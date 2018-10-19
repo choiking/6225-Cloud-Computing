@@ -60,8 +60,8 @@ PROFESSOR
 	"joiningDate": "02/08/1994"
 }
 4. DELETE Request: http://localhost:8080/courseservice/webapi/professors/1
-  5. GET By ID Request:  http://localhost:8080/courseservice/webapi/professors/1
-  6. GET by department:  http://localhost:8080/courseservice/webapi/professors?department=COE
+5. GET By ID Request:  http://localhost:8080/courseservice/webapi/professors/1
+6. GET by department:  http://localhost:8080/courseservice/webapi/professors?department=COE
 
 
 
@@ -93,8 +93,8 @@ STUDENT
 	"coursesEnrolled": ["1", "2"]
 }
 4. DELETE Request: http://localhost:8080/courseservice/webapi/students/1
-  5. GET By ID Request:  http://localhost:8080/courseservice/webapi/students/1
-  6. GET by department:  http://localhost:8080/courseservice/webapi/students?program=Computer Science
+5. GET By ID Request:  http://localhost:8080/courseservice/webapi/students/1
+6. GET by department:  http://localhost:8080/courseservice/webapi/students?program=Computer Science
 
 
 
@@ -168,8 +168,8 @@ PROGRAM
 	"listOfProfessors": ["1", "2"]
 }
 4. DELETE Request: http://localhost:8080/courseservice/webapi/programs/1
-  5. GET By Id Request:  http://localhost:8080/courseservice/webapi/programs/1
-  6. GET by beginTerm:  http://localhost:8080/courseservice/webapi/programs?beginTerm=Spring
+5. GET By Id Request:  http://localhost:8080/courseservice/webapi/programs/1
+6. GET by beginTerm:  http://localhost:8080/courseservice/webapi/programs?beginTerm=Spring
 
 
 
