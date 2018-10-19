@@ -1,0 +1,175 @@
+Description for Assign1 for csye6225 2018 Fall Cloud Computing Course
+
+Attributes of DataModel:
+
+PROFESSOR: 
+private String firstName
+private String department;
+private int professorId;
+private String joiningDate;
+
+STUDENT: 
+private String name;
+private int studentId;
+private List<Integer> coursesEnrolled;
+private String programName;
+
+COURSE:
+private int courseId;
+private String name;
+private String board;
+private List<Integer> enrolledStudents;
+private String associatedProfessor;
+private int teachingAssitantId;
+
+
+PROGRAM:
+private int programId;
+private String name;
+private List<Integer> listOfCourses;
+private List<Integer> enrolledStudents;
+private List<Integer> listOfProfessors;
+private String beginTerm;
+
+
+API REQUEST  Example
+
+PROFESSOR
+
+1. GET ALL Request: http://localhost:8080/courseservice/webapi/professors
+2. POST Request: http://localhost:8080/courseservice/webapi/professors
+{
+	"firstName": "K1",
+	"department": "COE",
+	"joiningDate": "02/07/1994"
+}
+{
+	"firstName": "K2",
+	"department": "COE",
+	"joiningDate": "02/08/1994"
+}
+{
+	"firstName": "K3",
+	"department": "CCIS",
+	"joiningDate": "02/09/1994"
+}
+3. PUT Request: http://localhost:8080/courseservice/webapi/professors/2
+{
+	"firstName": "K2 - New",
+	"department": "COE",
+	"joiningDate": "02/08/1994"
+}
+4. DELETE Request: http://localhost:8080/courseservice/webapi/professors/1
+  5. GET By ID Request:  http://localhost:8080/courseservice/webapi/professors/1
+  6. GET by department:  http://localhost:8080/courseservice/webapi/professors?department=COE
+
+
+
+STUDENT
+
+1. GET ALL Request: http://localhost:8080/courseservice/webapi/students
+2. POST Request: http://localhost:8080/courseservice/webapi/students
+{
+	"name": "Max",
+	"programName": "Computer Science",
+	"coursesEnrolled": ["1", "2"]
+}
+
+{
+	"name": "Nathan",
+	"programName": "Information System",
+	"coursesEnrolled": ["1", "2"]
+}
+
+{
+	"name": “Sally”,
+	"programName": "Computer Science",
+	"coursesEnrolled": ["1", "2"]
+}
+3. PUT Request: http://localhost:8080/courseservice/webapi/students/2
+{
+	"name": "Nathan- New",
+	"programName": "Information System",
+	"coursesEnrolled": ["1", "2"]
+}
+4. DELETE Request: http://localhost:8080/courseservice/webapi/students/1
+  5. GET By ID Request:  http://localhost:8080/courseservice/webapi/students/1
+  6. GET by department:  http://localhost:8080/courseservice/webapi/students?program=Computer Science
+
+
+
+
+COURSE
+1. GET ALL Request: http://localhost:8080/courseservice/webapi/courses
+2. POST Request: http://localhost:8080/courseservice/webapi/courses
+{
+	"name": "cloud computing",
+	"board": "Nothing",
+	"enrolledStudents": ["1", "4"],
+	"associatedProfessor": "Jami",
+	"teachingAssitantId": "2"
+}
+{
+	"name": "Operation System",
+	"board": "Nothing",
+	"enrolledStudents": ["1", "3"],
+	"associatedProfessor": "Jami",
+	"teachingAssitantId": "3"
+}
+{
+	"name": "Algorithm",
+	"board": "Nothing",
+	"enrolledStudents": ["3", "2"],
+	"associatedProfessor": "Ashishi",
+	"teachingAssitantId": "1"
+}
+3. PUT Request: http://localhost:8080/courseservice/webapi/courses/3
+{
+	"name": "Algorithm- New",
+	"board": "Nothing",
+	"enrolledStudents": ["3", "2"],
+	"associatedProfessor": "Ashishi",
+	"teachingAssitantId": "1"
+}
+4. DELETE Request: http://localhost:8080/courseservice/webapi/courses/1
+  5. GET By ID Request:  http://localhost:8080/courseservice/webapi/courses/1
+  6. GET by associated Professor:  http://localhost:8080/courseservice/webapi/courses?associatedProfessor=Jami 
+
+
+
+
+PROGRAM
+1. GET ALL Request: http://localhost:8080/courseservice/webapi/programs
+2. POST Request: http://localhost:8080/courseservice/webapi/programs
+
+{
+	"name": "CS",
+	"beginTerm": "Spring",
+	"enrolledStudents": ["1", "2"],
+	"listOfProfessors": ["1", "2"]
+}
+{
+	"name": "IS",
+	"beginTerm": "Fall",
+	"enrolledStudents": ["1", "2"],
+	"listOfProfessors": ["1", "2"]
+}
+{
+	"name": "CS",
+	"beginTerm": "Spring",
+	"enrolledStudents": ["1", "2"],
+	"listOfProfessors": ["1", "2"]
+}
+3. PUT Request: http://localhost:8080/courseservice/webapi/programs/2
+{
+	"name": "IS - New",
+	"beginTerm": "Fall",
+	"enrolledStudents": ["1", "2"],
+	"listOfProfessors": ["1", "2"]
+}
+4. DELETE Request: http://localhost:8080/courseservice/webapi/programs/1
+  5. GET By Id Request:  http://localhost:8080/courseservice/webapi/programs/1
+  6. GET by beginTerm:  http://localhost:8080/courseservice/webapi/programs?beginTerm=Spring
+
+
+
