@@ -3,6 +3,7 @@
 	<item value="true" key="J2EE_EXPORT_OVERWRITE"/>
 	<item value="false" key="J2EE_EXPORT_SOURCE"/>
 	<list key="J2EE_IMPORT_null">
+		<item value="/Users/nanshengtu/Desktop/6225 Cloud Computing/assign1.war"/>
 		<item value="/Users/nanshengtu/Desktop/6225 Cloud Computing/lab1.war"/>
 	</list>
 	<list key="MRU_RUNTIME_STORE">
@@ -10,6 +11,7 @@
 		<item value="Apache Tomcat v9.0"/>
 	</list>
 	<list key="J2EE_EXPORT_JST_WEB">
+		<item value="/Users/nanshengtu/Desktop/6225 Cloud Computing/assign1 of Nansheng Tu (001822297)/courseservice/courseservice.war"/>
 		<item value="/Users/nanshengtu/Desktop/6225 Cloud Computing/assign1.war"/>
 		<item value="/Users/nanshengtu/Desktop/6225/lab1.war"/>
 	</list>

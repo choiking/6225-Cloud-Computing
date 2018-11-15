@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/Users/nanshengtu/Desktop/6225 Cloud Computing/assign1 of Nansheng Tu (001822297)/courseservice"/>
 		<item value="/Users/nanshengtu/Desktop/6225 Cloud Computing/assign1/courseservice"/>
 		<item value="/Users/nanshengtu/Desktop/6225 Cloud Computing/lab1/jersey-bom"/>
 		<item value="/Users/nanshengtu/Desktop/6225 Cloud Computing/lab1"/>
@@ -9,5 +10,9 @@
 		<item value="/Users/nanshengtu/Desktop/6225 Cloud Computing/courseservice-week5"/>
 	</list>
 	<section name="NewWizardAction">
+		<item value="com.amazonaws.eclipse.lambda.project.wizard.newLambdaJavaFunctionProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="com.amazonaws.eclipse.sdk.category"/>
+		</list>
 	</section>
 </section>
