@@ -1,0 +1,116 @@
+ReadMe for Assign2 for csye6225 
+
+API REQUEST Example
+
+PROFESSOR
+
+1.GET ALL :/webapi/professors
+2.POST : /webapi/professors
+{
+	"professorId": "p5",
+	"firstName": "kkk87",
+	"lastName": "Lee",
+	"joiningDate": "02/07/2000",
+	"department": "ccis"
+}
+3.PUT : /webapi/professors/2 (only Id and professorId can not be changed)
+{
+	"firstName": “after update”,
+	"lastName": "Lee",
+	"department": "COE",
+	"joiningDate": "02/08/1994"
+
+}
+  4.DELETE Request: /webapi/professors/1
+  5. GET By ID Request:  /webapi/professors/1
+  6. GET by department:  /webapi/professors?department=coe
+
+COURSE
+1.GET ALL: /webapi/courses
+2.POST :/webapi/courses
+{
+	"courseId":"c2",
+	"boardId":"b1",
+	"listOfRegisteredStudents":["s1","s3"],
+	"professorId":"p1",
+	"taId":"t2",
+	"department":"coe"
+}
+3.PUT :/webapi/courses (only Id and courseId can not be changed)
+{
+	"boardId":"b1",
+	"listOfRegisteredStudents":["s1","s3"],
+	"professorId":"p1",
+	"taId":"t2",
+	"department":"coe"
+}
+  4.DELETE Request: /webapi/courses/c1
+  5. GET By ID Request:  /webapi/courses/c2
+  6. GET by ProfessorId: /webapi/courses?professorId=p1
+
+BOARD
+1.Get All: /webapi/boards
+2.POST : /webapi/boards
+{
+   "courseId":"c2",
+   "boardId":"b2"
+}
+3.PUT /webapi/boards/b2  (Id and boardId can not be changed)
+{
+	"courseId":"c8",	
+}
+
+ 4.get By ID: /webapi/boards/c2
+5.Delete By ID: /webapi/boards/c2
+6.get by courseId: /webapi/boards?courseId=c2
+
+
+ANNOUNCEMENT
+1.GetAll    /webapi/announcements
+ 2. POST   /webapi/announcements
+{
+	"announcementId":"a5",
+	"announcementText":"hw for today!",
+	"boardId":"b4"
+}
+   3. PUT  (Id and announcementId can not be changed)
+{
+ 	"announcementText":"after changed",
+	"boardId":"b5"
+}
+
+3.getById:  /webapi/announcements/b1_a1
+4.Delete   /webapi/announcements/b1_a1
+5.getByBoardId /webapi/announcements?boardId=b1
+
+STUDENT
+
+1.GET ALL: /webapi/students
+2.POST: /webapi/students
+{
+        "studentId": "s1",
+        "department": "coe",
+        "firstName": "tom",
+        "joiningDate": "02/02/1999",
+        "lastName": "cat",
+        "registeredCourses": [
+            "c1",
+            "c3",
+            "c5"
+        ]
+ }
+3.PUT Request:  /webapi/students/s1 (Id and studentId can not be changed)
+{
+        "department": "after change",
+        "firstName": "tom",
+        "joiningDate": "02/02/1999",
+        "lastName": "cat",
+        "registeredCourses": [
+            "c1",
+            "c3000000",
+            "c5"
+        ]
+  }
+  4. DELETE Request: /webapi/students/s1
+  5. GET By ID Request:  /webapi/students/s1
+  6. GET by department: /webapi/students?department=ccis
