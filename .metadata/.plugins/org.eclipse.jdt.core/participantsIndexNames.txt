@@ -13,9 +13,11 @@ INDEX VERSION 1.131
 /lab1/src
 /Users/nanshengtu/Desktop/6225 Cloud Computing/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1327351690.index
 /courseservice2/src/main/java
-/Users/nanshengtu/Desktop/6225 Cloud Computing/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/49276926.index
-/courseservice/src/main/java
 /Users/nanshengtu/Desktop/6225 Cloud Computing/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2870333702.index
 /jersey-bom/src/main/java
+/Users/nanshengtu/Desktop/6225 Cloud Computing/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/49276926.index
+/courseservice/src/main/java
 /Users/nanshengtu/Desktop/6225 Cloud Computing/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1886604083.index
 /courseservice2/src/main/java
+/Users/nanshengtu/Desktop/6225 Cloud Computing/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2353979113.index
+/courseservice/src

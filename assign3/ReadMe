@@ -1,0 +1,45 @@
+ReadMe for Assign3 for csye6225 
+
+Testing Example
+
+Step 1:
+Add course, at the same time add new topic.
+
+POST :/webapi/courses
+{
+	"courseId":"c2",
+	"boardId":"b1",
+	"listOfRegisteredStudents":["s8”],
+	"professorId":"p1",
+	"taId":"t2",
+	"department":"coe"
+}
+
+It will automatically create a new topic named after courseId, and store arn of it as Notification Topic.
+
+Step2:
+
+Student Register Couerse， at the same time subscribe to it’s revenant topic
+
+POST: students/s3/register
+
+[{ "S" : "cForAssign3" }]
+
+the student email will receive the course Subscription Comfirmation.
+
+Step3
+
+Make some change to the Announcement, so all students who subscribe to its relevant course, would receive email.
+
+ 2. POST   /webapi/announcements
+{
+	"announcementId":"a5",
+	"announcementText":"New Announcement Text",
+	"boardId":"b4",
+        "courseId":"cForAssign3"
+}
+
+
+
+
+
