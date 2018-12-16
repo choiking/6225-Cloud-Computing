@@ -16767,3 +16767,65 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.amazonaws
 2018-12-09 23:53:50,865 [Worker-107: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2018-12-09 23:53:50,867 [Worker-107: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-12-09 23:53:50,868 [Worker-107: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nanshengtu/Desktop/6225 Cloud Computing/assign2/courseservice/src/test/resources
+2018-12-11 22:12:55,998 [Worker-1: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-12-11 22:13:04,990 [Worker-10: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.csye6225.fall2018:courseservice:0.0.1-SNAPSHOT @ /Users/nanshengtu/Desktop/6225 Cloud Computing/assign2/courseservice/pom.xml.
+2018-12-11 22:13:08,764 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-11 22:13:08,765 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nanshengtu/Desktop/6225 Cloud Computing/assign2/courseservice/src/main/resources
+2018-12-11 22:13:08,770 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-11 22:13:08,771 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nanshengtu/Desktop/6225 Cloud Computing/assign2/courseservice/src/test/resources
+2018-12-11 22:13:08,775 [Worker-10: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of courseservice
+2018-12-11 22:13:08,776 [Worker-10: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for courseservice
+2018-12-11 22:13:08,782 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-14 17:00:54,588 [Worker-7: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-12-14 17:01:02,672 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-14 17:01:02,680 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-14 17:01:02,683 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-14 17:01:02,685 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-14 17:01:03,349 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-14 17:01:03,350 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nanshengtu/Desktop/6225 Cloud Computing/assign2/courseservice/src/main/resources
+2018-12-14 17:01:03,351 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-14 17:01:03,351 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nanshengtu/Desktop/6225 Cloud Computing/assign2/courseservice/src/test/resources
+2018-12-14 17:01:17,146 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-14 17:01:17,152 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-14 17:01:17,154 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-14 17:01:17,156 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-14 21:02:14,271 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-14 21:02:14,272 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nanshengtu/Desktop/6225 Cloud Computing/assign2/courseservice/src/main/resources
+2018-12-14 21:02:14,274 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-14 21:02:14,274 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nanshengtu/Desktop/6225 Cloud Computing/assign2/courseservice/src/test/resources
+2018-12-14 21:14:11,718 [Worker-67: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-14 21:14:11,720 [Worker-67: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nanshengtu/Desktop/6225 Cloud Computing/assign2/courseservice/src/main/resources
+2018-12-14 21:14:11,722 [Worker-67: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-14 21:14:11,722 [Worker-67: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nanshengtu/Desktop/6225 Cloud Computing/assign2/courseservice/src/test/resources
+2018-12-14 21:14:23,305 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-14 21:14:23,305 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nanshengtu/Desktop/6225 Cloud Computing/assign2/courseservice/src/main/resources
+2018-12-14 21:14:23,306 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-14 21:14:23,307 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nanshengtu/Desktop/6225 Cloud Computing/assign2/courseservice/src/test/resources
+2018-12-14 21:15:45,144 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-14 21:15:45,144 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nanshengtu/Desktop/6225 Cloud Computing/assign2/courseservice/src/main/resources
+2018-12-14 21:15:45,145 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-14 21:15:45,145 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nanshengtu/Desktop/6225 Cloud Computing/assign2/courseservice/src/test/resources
+2018-12-16 10:35:04,653 [Worker-282: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-16 10:35:04,654 [Worker-282: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nanshengtu/Desktop/6225 Cloud Computing/assign2/courseservice/src/main/resources
+2018-12-16 10:35:04,656 [Worker-282: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-16 10:35:04,656 [Worker-282: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nanshengtu/Desktop/6225 Cloud Computing/assign2/courseservice/src/test/resources
+2018-12-16 10:38:39,230 [Worker-287: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-16 10:38:39,236 [Worker-287: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nanshengtu/Desktop/6225 Cloud Computing/assign2/courseservice/src/main/resources
+2018-12-16 10:38:39,237 [Worker-287: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-16 10:38:39,237 [Worker-287: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nanshengtu/Desktop/6225 Cloud Computing/assign2/courseservice/src/test/resources
+2018-12-16 10:39:02,970 [Worker-283: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-16 10:39:02,973 [Worker-283: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nanshengtu/Desktop/6225 Cloud Computing/assign2/courseservice/src/main/resources
+2018-12-16 10:39:02,974 [Worker-283: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-16 10:39:02,974 [Worker-283: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nanshengtu/Desktop/6225 Cloud Computing/assign2/courseservice/src/test/resources
+2018-12-16 10:43:32,210 [Worker-286: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-16 10:43:32,213 [Worker-286: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nanshengtu/Desktop/6225 Cloud Computing/assign2/courseservice/src/main/resources
+2018-12-16 10:43:32,214 [Worker-286: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-16 10:43:32,214 [Worker-286: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nanshengtu/Desktop/6225 Cloud Computing/assign2/courseservice/src/test/resources
+2018-12-16 10:45:44,140 [Worker-289: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-16 10:45:44,140 [Worker-289: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nanshengtu/Desktop/6225 Cloud Computing/assign2/courseservice/src/main/resources
+2018-12-16 10:45:44,142 [Worker-289: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-16 10:45:44,142 [Worker-289: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nanshengtu/Desktop/6225 Cloud Computing/assign2/courseservice/src/test/resources
+2018-12-16 10:48:15,831 [Worker-291: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-16 10:48:15,833 [Worker-291: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nanshengtu/Desktop/6225 Cloud Computing/assign2/courseservice/src/main/resources
+2018-12-16 10:48:15,834 [Worker-291: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-16 10:48:15,835 [Worker-291: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nanshengtu/Desktop/6225 Cloud Computing/assign2/courseservice/src/test/resources

@@ -4365,3 +4365,59 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 
 !ENTRY org.eclipse.jface.text 2 0 2018-12-09 22:29:45.333
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+!SESSION 2018-12-11 22:12:30.105 -----------------------------------------------
+eclipse.buildId=4.9.0.I20180906-0745
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/nanshengtu/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/nanshengtu/.eclipse_keyring
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2018-12-11 22:12:53.384
+!MESSAGE Starting the AWS toolkit core plugin...
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2018-12-11 22:12:53.949
+!MESSAGE Monitoring content of /Users/nanshengtu/.aws/credentials
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2018-12-11 22:12:54.874
+!MESSAGE AWS toolkit core plugin initialized after 1492 milliseconds.
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2018-12-11 22:12:55.270
+!MESSAGE Found valid identity id cache us-east-1:4ee5835f-bf44-4918-9c49-a78429477a6c
+!SESSION 2018-12-14 17:00:32.518 -----------------------------------------------
+eclipse.buildId=4.9.0.I20180906-0745
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/nanshengtu/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/nanshengtu/.eclipse_keyring
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2018-12-14 17:00:52.317
+!MESSAGE Starting the AWS toolkit core plugin...
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2018-12-14 17:00:53.391
+!MESSAGE Monitoring content of /Users/nanshengtu/.aws/credentials
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2018-12-14 17:00:53.923
+!MESSAGE AWS toolkit core plugin initialized after 1609 milliseconds.
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2018-12-14 17:00:54.127
+!MESSAGE Found valid identity id cache us-east-1:4ee5835f-bf44-4918-9c49-a78429477a6c
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-14 17:01:02.674
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-14 17:01:02.684
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-14 17:01:17.148
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-14 17:01:17.155
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jface.text 2 0 2018-12-16 10:35:04.326
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-12-16 10:44:40.998
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'

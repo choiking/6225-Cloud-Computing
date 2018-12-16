@@ -5,7 +5,6 @@
 <fullyQualifiedTypeName name="org.slf4j.Logger"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="com.csye6225.fall2018.courseservice.datamodel.Course"/>
 <fullyQualifiedTypeName name="javax.ws.rs.QueryParam"/>
 <fullyQualifiedTypeName name="com.csye6225.fall2018.courseservice.datamodel.Student"/>
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
@@ -37,4 +36,5 @@
 <fullyQualifiedTypeName name="com.amazonaws.services.dynamodbv2.model.AttributeValue"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="com.amazonaws.services.dynamodbv2.model.GetItemResult"/>
+<fullyQualifiedTypeName name="com.csye6225.fall2018.courseservice.datamodel.Course"/>
 </qualifiedTypeNameHistroy>
